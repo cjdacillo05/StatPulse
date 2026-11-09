@@ -1,3 +1,4 @@
+import { CreatorCard } from "@/components/profile/creator-card";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 
@@ -5,6 +6,8 @@ export function AboutView() {
   return (
     <div className="space-y-6">
       <PageHeader title="ADVSTAT" description="Advanced Statistical Analysis System" />
+
+      <CreatorCard />
 
       <Card>
         <CardHeader>

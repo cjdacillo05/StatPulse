@@ -56,7 +56,7 @@ export function LoginForm({ next, notice }: LoginFormProps) {
   return (
     <AuthCard
       title="Log in"
-      subtitle="Welcome back to StatPulse."
+      subtitle="Learn it. Track it. Own it."
       footer={
         <>
           New here?{" "}
