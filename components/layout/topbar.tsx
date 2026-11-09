@@ -1,5 +1,6 @@
 "use client";
 
+import { AccountMenu } from "@/components/layout/account-menu";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
 
 export function Topbar() {
@@ -8,7 +9,10 @@ export function Topbar() {
       <div>
         <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted-foreground">Analysis workspace</p>
       </div>
-      <ThemeToggle />
+      <div className="flex items-center gap-3">
+        <ThemeToggle />
+        <AccountMenu />
+      </div>
     </header>
   );
 }
